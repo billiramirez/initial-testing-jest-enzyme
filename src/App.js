@@ -5,7 +5,10 @@ import './App.css';
 class App extends React.Component {
   render(){
     return (<div data-test="component-app">
-      <h1>app</h1>
+      <h1 data-test="counter-display">the counter is currently</h1>
+      <button data-test="increment-button">
+        Increment
+      </button>
     </div>);
   }
 }
